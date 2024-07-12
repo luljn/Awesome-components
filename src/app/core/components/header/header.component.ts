@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { MatToolbarModule } from '@angular/material/toolbar';
+import { SharedModule } from '../../../shared/shared.module';
 
 @Component({
   selector: 'app-header',
   standalone: true,
   imports: [
-    MatToolbarModule
+    SharedModule
   ],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
