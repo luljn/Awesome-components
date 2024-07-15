@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatCardModule } from '@angular/material/card';
+import { CommentComponent } from './components/comment/comment.component';
+import { MaterialModule } from './material.module';
 
 
 
@@ -9,12 +9,12 @@ import { MatCardModule } from '@angular/material/card';
   declarations: [],
   imports: [
     CommonModule,
-    MatToolbarModule,
-    MatCardModule
+    CommentComponent,
+    MaterialModule
   ],
   exports: [
-    MatToolbarModule,
-    MatCardModule
+    CommentComponent,
+    MaterialModule
   ]
 })
 export class SharedModule { }
